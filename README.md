@@ -1,75 +1,24 @@
-# Nuxt 3 Minimal Starter
+# Teste Oderço Ti
+Utilizei Nuxt 3, Vue 3, TypeScript e SCSS para fazer o projeto.
+Sobre os testes:
+Não tenho experiência com a ferramenta de testes 'vitest' que integra com o nuxt, tive alguns problemas para configurar o vue/testing-library e também o jest com o Nuxt.
+A aplicação não haverá testes, vou deixar aqui o link de um outro repositório onde testo uma aplicação em React, usando react/testing-library e também o jest.
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Desafio em que resolvi: https://github.com/lguibtwgh/desafio-componentes
+
+Por não querer atrasar a entrega do projeto estarei entregando assim.
+Encontrei algumas dificuldades de adaptação por utilizar o Vue 3 juntamente com o Nuxt 3, havia trabalhado mais com o Vue na versão 2 e também o React.
+
+Segue algumas instruções para instalar o projeto e rodar localmente.
 
 ## Setup
 
-Make sure to install the dependencies:
+Instalando dependências:
 
 ```bash
-# npm
-npm install
+# Instalando dependências...
+yarn
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
+# Rodando o projeto localmente.
 yarn dev
-
-# bun
-bun run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
